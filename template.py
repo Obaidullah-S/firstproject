@@ -5,6 +5,11 @@ from pathlib import Path
 list_of_files=[
 
     ".github/workflows/.gitkeep",
+    ".github/workflows/ci.yaml",
+    ".github/workflows/python-publish.yaml",
+    ".vscode/settings.json",
+    "src/mongoDBconnect/__init__.py",
+    "src/mongoDBconnect/mongo_crud.py",
     "src/__init__.py",
     "src/database/__init__.py",
     "src/database/mongo_connection.py",
