@@ -11,7 +11,12 @@ setup(
 
     install_requires=[
         "pymongo",
+        "pymongo[srv]",
+        "dnspython",
         "pandas",
-        "openpyxl"
+        "numpy",
+        "openpyxl",
+        "ensure",
+        "pytest"
     ],
 )
